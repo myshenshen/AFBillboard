@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="1080dp"
+        android:layout_height="1920dp">
+
+        <ImageView
+            android:id="@+id/nonetwork_img"
+            android:layout_width="1080dp"
+            android:layout_height="1920dp"
+            android:layout_gravity="center"
+            android:paddingRight="7dp"
+            android:paddingTop="7dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nonetworkpictures"
+            android:visibility="invisible" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
+
